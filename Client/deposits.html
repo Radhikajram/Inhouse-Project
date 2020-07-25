@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Deposit Details</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+    <main>
+    <label id="deposittype"> Fixed Deposits </label>
+    <br>    <br>
+    <br>
+    <button type="button"  id="addFD" onclick="AddDeposit()" >Add New Deposit</button>
+    <button onclick="goBack()">Go Back</button>
+
+
+    <table id="table">
+        <thead>
+            <th> ID</th>
+            <th> Category</th>
+            <th> First Name</th>
+            <th> Last Name</th>
+            <th> Deposit Amount</th>
+            <th> Renewal Amount</th>
+            <th> Deposti Date</th>
+            <th> Maturity Date</th>
+            <th> Deposit Number</th>
+            <th> Email</th>
+            <th> Phone</th>
+
+
+            <tbody></tbody>
+        </thead>
+    </table>
+    <script src="deposits.js"></script>
+
+</main>
+</body>
+</html>

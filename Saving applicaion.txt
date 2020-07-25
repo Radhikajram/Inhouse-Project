@@ -1,0 +1,28 @@
+User authentication must.
+
+Saving
+Category table
+	1. Fixed Deposit
+	2. Recurring Deposit
+	3. Insurance
+	4. Stock
+	5. Mutual Fund
+	6. Gold/Sliver/other ornaments
+	7. Saving account
+	8. PPF
+
+Category, Firstname, secondname, Amount(Deposit), Renewed Amount, ID(Deposit, insurance,stock,mutual fund), Date(deposit), Date(Maturity)
+
+Spending
+Category
+	1. Groceries
+	2. Electronics
+	3. Clothes
+	4. Maintenance
+	5. Donations
+	6. School
+	7. Transport
+	8. Vacation
+	9. Eat out
+	10. others
+Category date amount

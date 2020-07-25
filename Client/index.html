@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings-Spending Tracker</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <main>
+        <label> Choose the Type of Details </label>
+        <br><br><br>
+
+        <form>
+            <select id="selectoption" name = "dropdown" onchange="populate(this.id)">
+               <option value = "selectoption" selected>--Select Option --</option>
+               <option value = "savingsdetails" >Savings - Details</option>
+               <option value = "spendingdetails">Spending - Details</option>
+            </select>
+         </form>
+         <br>
+         <button type="button" class="SB" id="FD" onclick="fixedDeposit()" style="visibility: hidden;">Fixed Deposits</button>
+         <button type="button" class="SB" style="visibility: hidden;">Recurring Deposits</button>
+         <button type="button" class="SB" style="visibility: hidden;">Insurance</button>
+         <button type="button" class="SB" style="visibility: hidden;">Stock</button>
+         <button type="button" class="SB" style="visibility: hidden;">Mutual Fund</button>
+         <button type="button" class="SB" style="visibility: hidden;">Ornaments</button>        
+         <button type="button" class="SB" style="visibility: hidden;">Savings Account</button>
+         <button type="button" class="SB" style="visibility: hidden;">PPF</button>
+
+
+         <br>
+         <button type="button" class="SP" style="visibility: hidden;" >Groceries</button>
+         <button type="button" class="SP" style="visibility: hidden;" >Electronics</button>
+         <button type="button" class="SP" style="visibility: hidden;" >Clothes</button>
+         <button type="button" class="SP" style="visibility: hidden;" >Maintenance</button>
+         <button type="button" class="SP" style="visibility: hidden;" >Donations</button>
+         <button type="button" class="SP" style="visibility: hidden;" >School</button>
+         <button type="button" class="SP" style="visibility: hidden;" >Transport</button>
+         <button type="button" class="SP" style="visibility: hidden;" >Vacation</button>
+         <button type="button" class="SP" style="visibility: hidden;" >Eat out</button>
+         <button type="button" class="SP" style="visibility: hidden;" >others</button>
+
+
+         <script src="index.js"></script>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+main{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+
+}
+table {
+    margin : 50px auto;
+}
+#deposittype {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+main #selectoption {
+    text-align: center;
+}
+
+table,th,td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+.block label { display: inline-block; width: 140px; text-align: right; }
